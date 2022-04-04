@@ -17,6 +17,17 @@
 		96C56A1027F9E083001856D0 /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96C56A0F27F9E083001856D0 /* words.txt */; };
 		96CDBB3127F9F2CD00188FF2 /* mots.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96CDBB3027F9F2CD00188FF2 /* mots.txt */; };
 		96CDBB3327FA016000188FF2 /* parau.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96CDBB3227FA016000188FF2 /* parau.txt */; };
+		96CDBB3627FB0CCD00188FF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96CDBB3827FB0CCD00188FF2 /* Localizable.strings */; };
+		96CDBB4027FB111900188FF2 /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB3F27FB111900188FF2 /* GameBoardView.swift */; };
+		96CDBB4327FB116C00188FF2 /* CGSizeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4227FB116C00188FF2 /* CGSizeExtension.swift */; };
+		96CDBB4527FB118800188FF2 /* BundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4427FB118800188FF2 /* BundleExtension.swift */; };
+		96CDBB4727FB11B600188FF2 /* LanguageModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4627FB11B600188FF2 /* LanguageModalView.swift */; };
+		96CDBB4927FB11DE00188FF2 /* ChangeLanguageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4827FB11DE00188FF2 /* ChangeLanguageButtonView.swift */; };
+		96CDBB4B27FB121500188FF2 /* ValidateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4A27FB121500188FF2 /* ValidateButtonView.swift */; };
+		96CDBB4D27FB128900188FF2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4C27FB128900188FF2 /* Game.swift */; };
+		96CDBB4F27FB12B100188FF2 /* GameKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4E27FB12B100188FF2 /* GameKeyboard.swift */; };
+		96CDBB5127FB12C200188FF2 /* WordleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB5027FB12C200188FF2 /* WordleSquare.swift */; };
+		96CDBB5327FB132500188FF2 /* GameLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB5227FB132500188FF2 /* GameLanguage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +42,19 @@
 		96C56A0F27F9E083001856D0 /* words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 		96CDBB3027F9F2CD00188FF2 /* mots.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mots.txt; sourceTree = "<group>"; };
 		96CDBB3227FA016000188FF2 /* parau.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = parau.txt; sourceTree = "<group>"; };
+		96CDBB3727FB0CCD00188FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96CDBB3927FB0CF600188FF2 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96CDBB3A27FB0CF600188FF2 /* ty */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ty; path = ty.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96CDBB3F27FB111900188FF2 /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
+		96CDBB4227FB116C00188FF2 /* CGSizeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtension.swift; sourceTree = "<group>"; };
+		96CDBB4427FB118800188FF2 /* BundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtension.swift; sourceTree = "<group>"; };
+		96CDBB4627FB11B600188FF2 /* LanguageModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageModalView.swift; sourceTree = "<group>"; };
+		96CDBB4827FB11DE00188FF2 /* ChangeLanguageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguageButtonView.swift; sourceTree = "<group>"; };
+		96CDBB4A27FB121500188FF2 /* ValidateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateButtonView.swift; sourceTree = "<group>"; };
+		96CDBB4C27FB128900188FF2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		96CDBB4E27FB12B100188FF2 /* GameKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKeyboard.swift; sourceTree = "<group>"; };
+		96CDBB5027FB12C200188FF2 /* WordleSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleSquare.swift; sourceTree = "<group>"; };
+		96CDBB5227FB132500188FF2 /* GameLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLanguage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,7 @@
 		961D0B3C27F9A41F001542F0 = {
 			isa = PBXGroup;
 			children = (
+				96CDBB3827FB0CCD00188FF2 /* Localizable.strings */,
 				961D0B4727F9A41F001542F0 /* Wordle */,
 				961D0B4627F9A41F001542F0 /* Products */,
 			);
@@ -64,13 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				961D0B4827F9A420001542F0 /* WordleApp.swift */,
-				961D0B4A27F9A420001542F0 /* ContentView.swift */,
-				96CDBB3227FA016000188FF2 /* parau.txt */,
-				96C56A0F27F9E083001856D0 /* words.txt */,
-				96CDBB3027F9F2CD00188FF2 /* mots.txt */,
-				961D0B5A27F9A935001542F0 /* ColorExtension.swift */,
-				961D0B5827F9A5BA001542F0 /* GameViewModel.swift */,
-				961D0B5627F9A582001542F0 /* CustomKeyboardView.swift */,
+				96CDBB3E27FB10EA00188FF2 /* View Models */,
+				96CDBB3D27FB10E200188FF2 /* Models */,
+				96CDBB3C27FB10DD00188FF2 /* Views */,
+				96CDBB3B27FB0EE800188FF2 /* Data */,
+				96CDBB4127FB115F00188FF2 /* Extensions */,
 				961D0B4C27F9A421001542F0 /* Assets.xcassets */,
 				961D0B4E27F9A421001542F0 /* Preview Content */,
 			);
@@ -83,6 +106,58 @@
 				961D0B4F27F9A421001542F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		96CDBB3B27FB0EE800188FF2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				96C56A0F27F9E083001856D0 /* words.txt */,
+				96CDBB3027F9F2CD00188FF2 /* mots.txt */,
+				96CDBB3227FA016000188FF2 /* parau.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		96CDBB3C27FB10DD00188FF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				961D0B5627F9A582001542F0 /* CustomKeyboardView.swift */,
+				961D0B4A27F9A420001542F0 /* ContentView.swift */,
+				96CDBB4A27FB121500188FF2 /* ValidateButtonView.swift */,
+				96CDBB4827FB11DE00188FF2 /* ChangeLanguageButtonView.swift */,
+				96CDBB3F27FB111900188FF2 /* GameBoardView.swift */,
+				96CDBB4627FB11B600188FF2 /* LanguageModalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96CDBB3D27FB10E200188FF2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96CDBB4C27FB128900188FF2 /* Game.swift */,
+				96CDBB4E27FB12B100188FF2 /* GameKeyboard.swift */,
+				96CDBB5027FB12C200188FF2 /* WordleSquare.swift */,
+				96CDBB5227FB132500188FF2 /* GameLanguage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		96CDBB3E27FB10EA00188FF2 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				961D0B5827F9A5BA001542F0 /* GameViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		96CDBB4127FB115F00188FF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				961D0B5A27F9A935001542F0 /* ColorExtension.swift */,
+				96CDBB4227FB116C00188FF2 /* CGSizeExtension.swift */,
+				96CDBB4427FB118800188FF2 /* BundleExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +202,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ty,
+				fr,
 			);
 			mainGroup = 961D0B3C27F9A41F001542F0;
 			productRefGroup = 961D0B4627F9A41F001542F0 /* Products */;
@@ -144,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				961D0B5027F9A421001542F0 /* Preview Assets.xcassets in Resources */,
+				96CDBB3627FB0CCD00188FF2 /* Localizable.strings in Resources */,
 				96CDBB3127F9F2CD00188FF2 /* mots.txt in Resources */,
 				96C56A1027F9E083001856D0 /* words.txt in Resources */,
 				961D0B4D27F9A421001542F0 /* Assets.xcassets in Resources */,
@@ -158,15 +236,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CDBB4927FB11DE00188FF2 /* ChangeLanguageButtonView.swift in Sources */,
 				961D0B4B27F9A420001542F0 /* ContentView.swift in Sources */,
 				961D0B4927F9A420001542F0 /* WordleApp.swift in Sources */,
+				96CDBB5327FB132500188FF2 /* GameLanguage.swift in Sources */,
+				96CDBB4727FB11B600188FF2 /* LanguageModalView.swift in Sources */,
+				96CDBB4327FB116C00188FF2 /* CGSizeExtension.swift in Sources */,
 				961D0B5727F9A582001542F0 /* CustomKeyboardView.swift in Sources */,
 				961D0B5927F9A5BA001542F0 /* GameViewModel.swift in Sources */,
+				96CDBB5127FB12C200188FF2 /* WordleSquare.swift in Sources */,
+				96CDBB4F27FB12B100188FF2 /* GameKeyboard.swift in Sources */,
+				96CDBB4D27FB128900188FF2 /* Game.swift in Sources */,
+				96CDBB4B27FB121500188FF2 /* ValidateButtonView.swift in Sources */,
 				961D0B5B27F9A935001542F0 /* ColorExtension.swift in Sources */,
+				96CDBB4027FB111900188FF2 /* GameBoardView.swift in Sources */,
+				96CDBB4527FB118800188FF2 /* BundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96CDBB3827FB0CCD00188FF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CDBB3727FB0CCD00188FF2 /* en */,
+				96CDBB3927FB0CF600188FF2 /* fr */,
+				96CDBB3A27FB0CF600188FF2 /* ty */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		961D0B5127F9A421001542F0 /* Debug */ = {

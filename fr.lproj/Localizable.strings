@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Wordle
+
+  Created by Maertens Yann-Christophe on 04/04/22.
+  
+*/
+
+"Validate" = "Valider";
+"Congratulation" = "Bravo";
+"Game Over" = "Perdu";
+"The word was" = "Le mot était";
+"New Word" = "Nouveau Mot";
+"Change Words" = "Changer Mots";
