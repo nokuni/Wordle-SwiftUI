@@ -28,6 +28,7 @@
 		96CDBB4F27FB12B100188FF2 /* GameKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB4E27FB12B100188FF2 /* GameKeyboard.swift */; };
 		96CDBB5127FB12C200188FF2 /* WordleSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB5027FB12C200188FF2 /* WordleSquare.swift */; };
 		96CDBB5327FB132500188FF2 /* GameLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDBB5227FB132500188FF2 /* GameLanguage.swift */; };
+		96D554A9280048C100B2E6A4 /* parole.txt in Resources */ = {isa = PBXBuildFile; fileRef = 96D554A8280048C100B2E6A4 /* parole.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,8 @@
 		96CDBB4E27FB12B100188FF2 /* GameKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameKeyboard.swift; sourceTree = "<group>"; };
 		96CDBB5027FB12C200188FF2 /* WordleSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleSquare.swift; sourceTree = "<group>"; };
 		96CDBB5227FB132500188FF2 /* GameLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLanguage.swift; sourceTree = "<group>"; };
+		96D554A7280047AC00B2E6A4 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		96D554A8280048C100B2E6A4 /* parole.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = parole.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 				96C56A0F27F9E083001856D0 /* words.txt */,
 				96CDBB3027F9F2CD00188FF2 /* mots.txt */,
 				96CDBB3227FA016000188FF2 /* parau.txt */,
+				96D554A8280048C100B2E6A4 /* parole.txt */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -204,6 +208,7 @@
 				Base,
 				ty,
 				fr,
+				it,
 			);
 			mainGroup = 961D0B3C27F9A41F001542F0;
 			productRefGroup = 961D0B4627F9A41F001542F0 /* Products */;
@@ -224,6 +229,7 @@
 				96CDBB3627FB0CCD00188FF2 /* Localizable.strings in Resources */,
 				96CDBB3127F9F2CD00188FF2 /* mots.txt in Resources */,
 				96C56A1027F9E083001856D0 /* words.txt in Resources */,
+				96D554A9280048C100B2E6A4 /* parole.txt in Resources */,
 				961D0B4D27F9A421001542F0 /* Assets.xcassets in Resources */,
 				96CDBB3327FA016000188FF2 /* parau.txt in Resources */,
 			);
@@ -263,6 +269,7 @@
 				96CDBB3727FB0CCD00188FF2 /* en */,
 				96CDBB3927FB0CF600188FF2 /* fr */,
 				96CDBB3A27FB0CF600188FF2 /* ty */,
+				96D554A7280047AC00B2E6A4 /* it */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

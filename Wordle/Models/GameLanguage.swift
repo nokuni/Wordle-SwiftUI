@@ -11,6 +11,7 @@ enum GameLanguage: String, CaseIterable {
     case unitedStates = "United States"
     case france = "France"
     case polynesia = "Polynesia"
+    case italian = "Italian"
     
     var keyboard: String {
         switch self {
@@ -20,6 +21,8 @@ enum GameLanguage: String, CaseIterable {
             return "azertyuiopqsdfghjklmwxcvbn"
         case .polynesia:
             return "azertyuiopqsdfghjklmwxcvbn'"
+        case .italian:
+            return "azertyuiopqsdfghjklmwxcvbn"
         }
     }
     
@@ -31,6 +34,8 @@ enum GameLanguage: String, CaseIterable {
             return "🇫🇷"
         case .polynesia:
             return "🇵🇫"
+        case .italian:
+            return "🇮🇹"
         }
     }
     
@@ -42,6 +47,8 @@ enum GameLanguage: String, CaseIterable {
             return "mots.txt"
         case .polynesia:
             return "parau.txt"
+        case .italian:
+            return "parole.txt"
         }
     }
 }
